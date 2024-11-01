@@ -98,6 +98,7 @@ class PlaylistProvider extends ChangeNotifier {
     }
   }
 
+
   //Play the previous song
   void playPreviousSong() async {
     if (_currentDuration.inSeconds > 2) {
